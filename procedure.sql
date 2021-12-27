@@ -1,3 +1,4 @@
+-- Add information about new flight simultaneously into two different tables
 CREATE OR REPLACE PROCEDURE add_new_flight(
     flight_id_ VARCHAR,
     airline_id_ VARCHAR,

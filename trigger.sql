@@ -1,3 +1,4 @@
+-- Check if name of new added airline is `NULL`, if so raise exception
 CREATE OR REPLACE FUNCTION check_empty_airline_name()
 RETURNS TRIGGER
 LANGUAGE 'plpgsql'

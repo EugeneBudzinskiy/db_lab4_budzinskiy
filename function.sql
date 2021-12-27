@@ -1,3 +1,4 @@
+-- Get flights count of given airline ID
 CREATE OR REPLACE FUNCTION get_flights_count(airline_id_ VARCHAR)
 RETURNS INT
 LANGUAGE 'plpgsql'
